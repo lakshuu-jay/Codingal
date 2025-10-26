@@ -1,7 +1,7 @@
 import turtle
 
 screen = turtle.Screen()
-screen.bgcolor("lightblue") 
+screen.bgcolor("black") 
 screen.title("Polygons with Turtle")
 
 
@@ -11,7 +11,7 @@ t.speed(3)
 t.penup()
 t.goto(-200, 100)  
 t.pendown()
-t.color("red", "yellow")  
+t.color("red", "red")  
 t.begin_fill()
 for _ in range(3):
     t.forward(100)
@@ -21,7 +21,7 @@ t.end_fill()
 t.penup()
 t.goto(50, 100)
 t.pendown()
-t.color("blue", "green")
+t.color("blue", "blue")
 t.begin_fill()
 for _ in range(2):
     t.forward(150) 
@@ -33,7 +33,7 @@ t.end_fill()
 t.penup()
 t.goto(-50, -100)
 t.pendown()
-t.color("purple", "pink")
+t.color("yellow", "yellow")
 t.begin_fill()
 for _ in range(6):
     t.forward(70)
