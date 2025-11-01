@@ -20,5 +20,5 @@ print(n_tuple[1][1])
 
 print('Sliced :', my_tuple[1:4])
 
-for letter in (my_tuple):
+for letter in my_tuple:
     print("Hello",letter)
