@@ -57,7 +57,7 @@ if __name__ == '__main__':
             print("Not a valid option")
         
         print("Press q to quit and c to continue")
-        userchoice2 = ""
+        user_choice2 = ""
         while(user_choice2 != "c" and user_choice2 != "q"):
             user_choice2 = input()
             if user_choice2 =="q":
