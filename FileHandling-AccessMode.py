@@ -14,7 +14,7 @@ print("\nFile overwritten")
 
 f = open("Students.txt", "a")
 f.write("Noah - Favourite Subject: Art")
-f.write("Zara - Favourite Subject: Biology")
+f.write("\nZara - Favourite Subject: Biology")
 f.close()
 print("New students added")
 
