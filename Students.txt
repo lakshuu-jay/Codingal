@@ -1,5 +1,7 @@
-Roy
-Sam
-Alisha
-Liam
-Mira
+Roy - Favourite Subject: Math
+Sam - Favourite Subject: English
+Aisha - Favourite Subject: Science
+Liam - Favourite Subject: ICT
+Mira - Favourite Subject: History
+Noah - Favourite Subject: Art
+Zara - Favourite Subject: Biology
