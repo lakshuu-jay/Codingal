@@ -7,4 +7,4 @@ for line in file1.readlines():
         file2.write(line)
 
 file2.close()
-file2.close
+file2.close()
