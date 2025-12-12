@@ -1,6 +1,6 @@
 file = open("Text.txt","r")
-print("First 10 Characters:")
-print(file.read(10))
+print("First 12 Characters:")
+print(file.read(12))
 file.close()
 
 file=open("Text.txt","r")
