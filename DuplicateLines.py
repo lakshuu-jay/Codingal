@@ -1,13 +1,15 @@
-outputFile=open("UpdatedFile.txt","w")
-inputFile=open("Repeated.txt","r")
+outputFile = open("UpdatedFile.txt", "w")
+inputFile = open("Repeated.txt", "r")
 
-lines_seen_so_far=set()
+lines_seen = set()
+
 print("Eliminating duplicate lines....")
 
 for line in inputFile:
-    if line not in lines_seen_so_far:
+    clean = line.strip()
+    if clean not in lines_seen:
         outputFile.write(line)
-        lines_seen_so_far.add(line)
+        lines_seen.add(clean)
 
 inputFile.close()
 outputFile.close()
