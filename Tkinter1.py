@@ -11,7 +11,7 @@ greeting.pack()
 button.pack()
 entry.pack()
 
-frame=Frame(master=window,relief=RAISED,borderwidth=5)
+frame=Frame(master=window,relief=SUNKEN,borderwidth=5)
 frame.pack()
 label=Label(master=frame,text="Sample Frame")
 label.pack()
