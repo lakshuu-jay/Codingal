@@ -21,7 +21,7 @@ else:
 
 print("\nCreate a new file if it does not exist:")
 file = open("batman.txt","w")
-file.write("I AM BATMAN🦇!")
+file.write("I AM BATMAN!")
 file.close()
 
 print("\nDeleting a file:")
