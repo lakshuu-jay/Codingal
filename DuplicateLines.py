@@ -7,8 +7,8 @@ print("Eliminating duplicate lines....")
 
 for line in inputFile:
     clean = line.strip()
-    if line not in lines_seen_so_far:
-        outputFile.write(clean)
+    if clean not in lines_seen_so_far:
+        outputFile.write(line)
         lines_seen_so_far.add(clean)
 
 inputFile.close()
