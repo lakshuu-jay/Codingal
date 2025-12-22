@@ -4,3 +4,5 @@ def prints(n):
     print("Codingal")
     prints(n/2)
     prints(n/2)
+
+prints(4)
