@@ -9,5 +9,6 @@ if number>1:
             break
         else:
             print(number,"is a prime number")
+            break
 else:
     print(number,"is an invalid number")
