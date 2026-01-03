@@ -1,6 +1,6 @@
-A = int(input("Enter 1 or 0"))
-B = int(input("Enter 1 or 0"))
-C = int(input("Enter 1 or 0"))
+A = int(input("Enter 1 or 0:"))
+B = int(input("Enter 1 or 0:"))
+C = int(input("Enter 1 or 0:"))
 
 Gate1 = A & B
 Gate2 = B | C
